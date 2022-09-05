@@ -24,7 +24,7 @@ const io = require("socket.io")(server, {
     origin: [
       "http://localhost:3000",
       "https://admin.socket.io",
-      "http://tic-tac-toe-vs.herokuapp.com",
+      "https://tic-tac-toe-vs.up.railway.app",
     ],
     credentials: true,
   },
